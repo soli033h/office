@@ -1,0 +1,25 @@
+.git/
+.gitignore
+.dockerignore
+
+# Local Python environments and generated files
+.venv/
+venv/
+env/
+ENV/
+Lib/
+Scripts/
+Include/
+share/
+pyvenv.cfg
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Local tooling and secrets
+.vscode/
+.idea/
+.env
+.env.*
+!.env.example
